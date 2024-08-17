@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    entrypoint: tail
+    command:
+      - -f
+      - /dev/null
+    volumes:
+      - .:/sqldef-d1-test:cached
