@@ -1,5 +1,5 @@
 name = "sqldef-d1-test"
-compatibility_date = "2024-08-17"
+compatibility_date = "2024-08-06"
 
 # [vars]
 # MY_VAR = "my-variable"
@@ -15,7 +15,7 @@ compatibility_date = "2024-08-17"
 [[d1_databases]]
 binding = "DB"
 database_name = "sqldef-d1-test"
-database_id = ""
+database_id = "ae1416c0-f327-4e6c-abbf-0b2bdd78d91d"
 
 # [ai]
 # binding = "AI"
