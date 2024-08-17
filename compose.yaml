@@ -9,3 +9,5 @@ services:
       - /dev/null
     volumes:
       - .:/sqldef-d1-test:cached
+    ports:
+      - 8787:8787
