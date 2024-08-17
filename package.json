@@ -1,15 +1,14 @@
 {
   "name": "sqldef-d1-test",
-  "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "dependencies": {
+    "hono": "^4.5.5"
+  },
   "devDependencies": {
-    "@biomejs/biome": "1.8.3",
-    "wrangler": "^3.71.0"
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "wrangler": "^3.57.2"
   }
 }
